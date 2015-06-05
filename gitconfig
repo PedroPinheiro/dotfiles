@@ -1,0 +1,14 @@
+[user]
+	name = Rodrigo Alencar Bernardo
+	email = rodrigo@kayala.com.br
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	aa = add .
+	po = push -u
+	pl = pull --rebase
+        m  = merge --no-ff
+[push]
+	default = upstream

@@ -1,0 +1,6 @@
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = git@github.com:robbyrussell/oh-my-zsh.git
+[submodule "themes/dracula-theme"]
+	path = themes/dracula-theme
+	url = git@github.com:zenorocha/dracula-theme.git
