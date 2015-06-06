@@ -4,3 +4,6 @@
 [submodule "themes/dracula-theme"]
 	path = themes/dracula-theme
 	url = git@github.com:zenorocha/dracula-theme.git
+[submodule "vim/bundle/Vundle.vim"]
+	path = vim/bundle/Vundle.vim
+	url = git@github.com:gmarik/Vundle.vim.git
