@@ -1,21 +1,21 @@
 #!/bin/bash
-rm ~/.vim
+rm -rf ~/.vim
 ln -s ~/dotfiles/vim ~/.vim
 
-rm ~/.vimrc
+rm -rf ~/.vimrc
 ln -s ~/dotfiles/vimrc ~/.vimrc
 
-rm ~/.zshrc
+rm -rf ~/.zshrc
 ln -s ~/dotfiles/zshrc ~/.zshrc
 
-rm ~/.profile
+rm -rf ~/.profile
 ln -s ~/dotfiles/profile ~/.profile
 
-rm ~/.oh-my-zsh
+rm -rf ~/.oh-my-zsh
 ln -s ~/dotfiles/oh-my-zsh ~/.oh-my-zsh
 
-rm ~/dotfiles/oh-my-zsh/themes/dracula.zsh-theme
+rm -rf ~/dotfiles/oh-my-zsh/themes/dracula.zsh-theme
 ln -s ~/dotfiles/themes/dracula-theme/zsh/dracula.zsh-theme ~/dotfiles/oh-my-zsh/themes/dracula.zsh-theme
 
-rm ~/.gitconfig
+rm -rf ~/.gitconfig
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
