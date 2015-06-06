@@ -26,3 +26,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/apps/node/bin:$PATH"
 
 export WORKON_HOME="$HOME/envs"
+
+export TERM="xterm-256color"
