@@ -79,7 +79,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll="ls -lah"
 alias g="git"
-alias rm="rm -rI"
 
 source /usr/local/bin/virtualenvwrapper.sh
 
