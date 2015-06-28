@@ -79,6 +79,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll="ls -lah"
 alias g="git"
+alias vim="TERM='xterm-256color' vim"
 
 source /usr/local/bin/virtualenvwrapper.sh
 
