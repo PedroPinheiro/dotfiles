@@ -3,12 +3,14 @@
 	email = rodrigo@kayala.com.br
 [alias]
 	co = checkout
+	cb = checkout -b 
 	br = branch
 	ci = commit
 	st = status
 	aa = add .
+	ai = add -i
 	po = push -u
 	pl = pull --rebase
-        m  = merge --no-ff
+    m  = merge --no-ff
 [push]
-	default = upstream
+	default = current
