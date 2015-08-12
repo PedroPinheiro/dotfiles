@@ -84,3 +84,6 @@ alias vim="TERM='xterm-256color' vim"
 source /usr/local/bin/virtualenvwrapper.sh
 
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

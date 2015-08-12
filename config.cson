@@ -1,0 +1,28 @@
+"*":
+  "exception-reporting":
+    userId: "4cffdf5c-36b6-83a7-4acf-e32a2ca02b3f"
+  welcome:
+    showOnStartup: false
+  "git-plus": {}
+  "git-blame-plus": {}
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    showIndentGuide: true
+    fontSize: 13
+  core:
+    disabledPackages: [
+      "atom-tsd"
+      "bower-install"
+      "formatter"
+      "jsformat"
+      "atom-json-escape"
+    ]
+  "linter-pep8": {}
+  jsformat: {}
+  "atom-beautify":
+    _analyticsUserId: "e93d298d-8487-4e03-90f8-7a7f010b5023"
+    beautifyEntireFileOnSave: false
+".java.source":
+  editor:
+    showInvisibles: true
