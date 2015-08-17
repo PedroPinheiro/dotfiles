@@ -1,10 +1,4 @@
 #!/bin/bash
-rm -rf ~/.vim
-ln -s ~/dotfiles/vim ~/.vim
-
-rm -rf ~/.vimrc
-ln -s ~/dotfiles/vimrc ~/.vimrc
-
 rm -rf ~/.zshrc
 ln -s ~/dotfiles/zshrc ~/.zshrc
 
@@ -20,8 +14,3 @@ ln -s ~/dotfiles/themes/dracula-theme/zsh/dracula.zsh-theme ~/dotfiles/oh-my-zsh
 rm -rf ~/.gitconfig
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
 
-rm -rf ~/.atom/config.cson
-ln -s ~/dotfiles/config.cson ~/.atom/config.cson
-
-rm -rf ~/.atom/keymap.cson
-ln -s ~/dotfiles/keymap.cson ~/.atom/keymap.cson
