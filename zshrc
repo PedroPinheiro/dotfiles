@@ -77,7 +77,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll="ls -lah"
+alias ll="ls -lAh --group-directories-first"
 alias g="git"
 alias vim="TERM='xterm-256color' vim"
 
