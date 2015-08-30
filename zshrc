@@ -80,9 +80,11 @@ source $ZSH/oh-my-zsh.sh
 alias ll="ls -lAh --group-directories-first"
 alias g="git"
 alias vim="TERM='xterm-256color' vim"
-alias vup="vagrant up"
-alias vds="vagrant destroy"
-alias vsp="vagrant suspend"
+alias vu="vagrant up"
+alias vd="vagrant destroy"
+alias vp="vagrant suspend"
+alias vs="vagrant status"
+alias vsh="vagrant ssh"
 alias v="vagrant"
 
 source /usr/local/bin/virtualenvwrapper.sh
